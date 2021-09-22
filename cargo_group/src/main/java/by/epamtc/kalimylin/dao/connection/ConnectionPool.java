@@ -75,7 +75,7 @@ public class ConnectionPool {
 		
 		try {
 			connection = freeConnection.take();
-//			logger.log(Level.DEBUG, GAVE_CONNECTION + connection);
+			logger.log(Level.DEBUG, GAVE_CONNECTION + connection);
 			givenAwayConnections.add((ProxyConnection) connection);
 		} catch (InterruptedException e) {
 			logger.log(Level.ERROR, I_E_GET_CONNECTION + e.getMessage());
@@ -138,7 +138,7 @@ public class ConnectionPool {
 		if (connection instanceof ProxyConnection 
 				&& givenAwayConnections.remove(connection)) {
 			
-//			logger.log(Level.DEBUG, RELEASE_CONNECTION + connection);
+			logger.log(Level.DEBUG, RELEASE_CONNECTION + connection);
 			
 			try {
 				freeConnection.put((ProxyConnection) connection);
