@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Test Suite" verbose="1">
+
+	<test name="TestDAO">
+    	<classes>
+      		<class name="by.epamtc.kalimylin.dao.impl.RequirementDAOimplTest" />
+      		<class name="by.epamtc.kalimylin.dao.impl.VehicleDAOimplTest" />
+      		<class name="by.epamtc.kalimylin.dao.impl.UserDAOimplTest" />
+      		<class name="by.epamtc.kalimylin.dao.impl.TripDAOimplTest" />
+      		<class name="by.epamtc.kalimylin.dao.impl.ShipperDAOimplTest" />
+      		<class name="by.epamtc.kalimylin.dao.impl.OrderDAOimplTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="TestController">
+    	<classes>
+      		<class name="by.epamtc.kalimylin.controller.command.CommandProviderTest" />
+      		<class name="by.epamtc.kalimylin.controller.util.AccessHandlerTest" />
+    	</classes>
+  	</test>
+  	
+  	 <test name="TestService">
+    	<classes>
+      		<class name="by.epamtc.kalimylin.service.util.EmailCryptTest" />
+      		<class name="by.epamtc.kalimylin.service.util.MailSenderTest" />
+      		<class name="by.epamtc.kalimylin.service.util.validation.TechValidatorTest" />
+      		<class name="by.epamtc.kalimylin.service.util.validation.VariableValidatorTest" />
+    	</classes>
+  	</test>	
+</suite>
