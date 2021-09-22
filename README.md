@@ -26,4 +26,4 @@ Admin:
 - Views/ edits user's personal data
 
 Database tables
-![](Database/Database.png)
+![](Database.png)
