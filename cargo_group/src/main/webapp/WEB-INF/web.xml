@@ -28,7 +28,7 @@
   
    <servlet>
     <servlet-name>ThrowableHandler</servlet-name>
-    <servlet-class>by.epamtc.kalimylin.controller.util.handler.ThrowableHandler</servlet-class>
+    <servlet-class>by.epamtc.kalimylin.controller.util.handler.ThrowableHelper</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>ThrowableHandler</servlet-name>
