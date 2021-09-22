@@ -10,7 +10,7 @@ After the Trip, the driver writes notes on the condition of the Vehicle.
 
 Logist:
 - adds/ deletes/ views Orders.
-- add/ views Requirements
+- adds/ views Requirements
 - adds/ views Shippers
 - adds/ deletes/ views Trips
 - changes drivers vehicle to other vehicle/ browses the driver list
