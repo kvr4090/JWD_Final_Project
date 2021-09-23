@@ -69,7 +69,6 @@ public class FinishTripCommand implements Command {
 			logger.log(Level.INFO, messageToLog.toString());
 			
 		} catch (ServiceException e) {
-			e.printStackTrace(); // !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 			handler = new ExceptionHelper(logger, e, messageToLog);
 			handler.log();
 			page = handler.updatePage(page);
