@@ -8,7 +8,6 @@ import org.apache.logging.log4j.Logger;
 
 /**
  * Class for processing Exception.
- * No null input data check.
  * At first call constructor with parameters, to initialize objects.
  * For processing exception, need to call method log().
  * For update page path use updatePage(StringBuilder pagePath).
